@@ -15,27 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Test\Driver.h">
+    <ClInclude Include="Driver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Test\Location.h">
+    <ClInclude Include="Location.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Test\Truck.h">
+    <ClInclude Include="Truck.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Test\Driver.cpp">
+    <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Test\Location.cpp">
+    <ClCompile Include="Truck.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Test\Source.cpp">
+    <ClCompile Include="Location.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Test\Truck.cpp">
+    <ClCompile Include="Driver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
