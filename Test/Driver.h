@@ -2,6 +2,7 @@
 // Member 2: Owen Covach (Team Leader)
 // Member 3: Hangsihak Sin
 // Group Number: 10
+// Description: Interface of Driver Libarary
 // ---------------------------------------
 // PROG71020 - Winter 2023
 // Assignment/Lab 02 - January 29/2023
@@ -25,12 +26,6 @@ public:
 	Driver();
 
 	Driver(std::string, std::string, int);
-
-	void setFirstName(std::string);
-
-	void setLastName(std::string);
-
-	void setDriverId(int);
 
 	std::string getFirstName(void);
 

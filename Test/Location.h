@@ -2,6 +2,7 @@
 // Member 2: Owen Covach (Team Leader)
 // Member 3: Hangsihak Sin
 // Group Number: 10
+// Description: Interface of Location Library
 // ---------------------------------------
 // PROG71020 - Winter 2023
 // Assignment/Lab 02 - January 29/2023
@@ -21,10 +22,6 @@ public:
 	Location();
 
 	Location(int, int);
-
-	void setLocationX(int);
-
-	void setLocationY(int);
 
 	int getLocationX(void);
 

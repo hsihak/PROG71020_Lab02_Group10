@@ -2,6 +2,7 @@
 // Member 2: Owen Covach (Team Leader)
 // Member 3: Hangsihak Sin
 // Group Number: 10
+// Description: Implementation of Truck Library
 // ---------------------------------------
 // PROG71020 - Winter 2023
 // Assignment/Lab 02 - January 29/2023
@@ -23,17 +24,11 @@ Truck::Truck()
 	truckId = 0;
 }
 
-
 Truck::Truck(std::string fName, std::string lName, int driverId, int tId, int coordinateX, int coordinateY)
 {
 	driver = Driver(fName, lName, driverId);
 	location = Location(coordinateX, coordinateY);
 	truckId = tId;
-}
-
-void Truck::setTruckId(int Id) {
-
-	truckId = Id;
 }
 
 Location Truck::getTruckLocation()
