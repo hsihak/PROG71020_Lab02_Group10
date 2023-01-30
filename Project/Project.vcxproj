@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{91e0615a-54a4-45ae-a870-c2ca2740e6dd}</ProjectGuid>
-    <RootNamespace>Test</RootNamespace>
+    <ProjectGuid>{1d5e6340-ef4b-42b1-a362-27a72b2c3563}</ProjectGuid>
+    <RootNamespace>Project</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Program</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Driver.h" />
-    <ClInclude Include="Location.h" />
-    <ClInclude Include="Truck.h" />
+    <ClInclude Include="..\Test\Driver.h" />
+    <ClInclude Include="..\Test\Location.h" />
+    <ClInclude Include="..\Test\Truck.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Driver.cpp" />
-    <ClCompile Include="Location.cpp" />
-    <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Truck.cpp" />
+    <ClCompile Include="..\Test\Driver.cpp" />
+    <ClCompile Include="..\Test\Location.cpp" />
+    <ClCompile Include="..\Test\Source.cpp" />
+    <ClCompile Include="..\Test\Truck.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
